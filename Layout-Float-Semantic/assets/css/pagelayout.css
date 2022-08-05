@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 100%;
+    background-color: cyan;
+}
+
+
+#menues .menu {
+    display: flex;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding: 0 10px 30px 0;
+}
+
+
+#menues .menu-item {
+    font-size: 20px;
+    border: 3px solid blue;
+    color: blue;
+    margin: 3px;
+    min-height: 50px;
+    width: 100%;
+    text-align: center;
+    text-decoration: underline;
+    background-color: yellow;
+}
+
+#layout .site-layout {
+
+    display: flex;
+    width: 100%;
+    height: 640px; 
+    justify-content: center;
+}
+
+
+
+#layout .site-layout .navigate {
+   
+    font-size: 30px;
+    background-color: gray;
+    color: cyan;
+    border: 1px solid black;
+    text-align: center;
+    height: 640px;
+    width: 100%;
+    display: flex;
+
+
+    
+    
+
+}
+
+#layout .site-layout .about {
+
+    font-size: 30px;
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    text-align: center;
+    height: 640px;
+    width: 100%;
+    display: flex;
+}
+
+#layout .site-layout .costumer {
+
+    font-size: 30px;
+    background-color: blue;
+    color: yellowgreen;
+    border: 1px solid black;
+    text-align: center;
+    height: 640px;
+    width: 100%;
+    display: flex;
+
+}
+
+#section .end-section a {
+    color: coral;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+
+}
